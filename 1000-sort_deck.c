@@ -43,7 +43,7 @@ char get_value(deck_node_t *card)
 		return (0);
 	if (_strcmp(card->card->value, "1") == 0)
 		return (1);
-	if (_strcmp(card->card->value, "2") == 0
+	if (_strcmp(card->card->value, "2") == 0)
 		return (2);
 	if (_strcmp(card->card->value, "3") == 0)
 		return (3);
@@ -99,7 +99,7 @@ void insertion_sort_deck_kind(deck_node_t **deck)
 
 /**
  * insertion_sort_deck_value - Sort a deck of cards sorted from
- *                             spades to diamonds from ace to k
+ *                             spades to diamonds from ace to king.
  * @deck: A pointer to the head of a deck_node_t doubly-linked list.
  */
 void insertion_sort_deck_value(deck_node_t **deck)
